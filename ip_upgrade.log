@@ -1,0 +1,590 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Oct 18 11:12:33 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Oct 18 10:41:24 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 22:44:04 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 26)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 22:13:11 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 26)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 22:09:46 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 26)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 22:09:38 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0) from (Rev. 25) to (Rev. 26)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_2_myBLDC_Controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'i_sw_bypass'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 21:46:24 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 25)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 21:46:18 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0) from (Rev. 24) to (Rev. 25)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_2_myBLDC_Controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'o_led_enable_control'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 21:44:51 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 24)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 21:27:19 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 20:27:37 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 20:03:29 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 19:42:45 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 19:42:45 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myBLDC_Controller_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_myBLDC_Controller_0_1 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 19:40:36 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 19:40:34 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myBLDC_Controller_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_myBLDC_Controller_0_1 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 16:14:47 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 16:14:47 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myBLDC_Controller_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_myBLDC_Controller_0_1 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 16:14:31 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0) from (Rev. 22) to (Rev. 23)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_2_myBLDC_Controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'i_display_gain'
+
+-Upgrade has added port 'i_sw_display_gain'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 16:14:30 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myBLDC_Controller_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_myBLDC_Controller_0_1 (xilinx.com:user:myBLDC_Controller:1.0) from (Rev. 22) to (Rev. 23)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_myBLDC_Controller_0_1'. These changes may impact your design.
+
+
+-Upgrade has removed port 'i_display_gain'
+
+-Upgrade has added port 'i_sw_display_gain'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 16:10:36 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 22)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 16:10:36 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myBLDC_Controller_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_myBLDC_Controller_0_1 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 22)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 16:09:09 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_myBLDC_Controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_2_myBLDC_Controller_0_0 (xilinx.com:user:myBLDC_Controller:1.0) from (Rev. 21) to (Rev. 22)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_2_myBLDC_Controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'i_display_gain'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 16:09:07 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myBLDC_Controller_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_myBLDC_Controller_0_1 (xilinx.com:user:myBLDC_Controller:1.0) from (Rev. 21) to (Rev. 22)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_myBLDC_Controller_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'i_display_gain'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Oct 17 13:57:48 2024
+| Host         : LeeJP running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myBLDC_Controller_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_myBLDC_Controller_0_1 (xilinx.com:user:myBLDC_Controller:1.0 (Rev. 21)) to Vivado generation flows.
+

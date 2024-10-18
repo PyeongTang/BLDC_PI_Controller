@@ -1,0 +1,6 @@
+/*BLDC_Controller*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

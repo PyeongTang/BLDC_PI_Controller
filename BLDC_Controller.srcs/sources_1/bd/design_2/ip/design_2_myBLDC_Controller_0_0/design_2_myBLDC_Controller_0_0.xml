@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>customized_ip</spirit:library>
+  <spirit:name>design_2_myBLDC_Controller_0_0</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+    <spirit:busInterface>
+      <spirit:name>S00_AXI</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm_rtl" spirit:version="1.0"/>
+      <spirit:slave>
+        <spirit:memoryMapRef spirit:memoryMapRef="S00_AXI"/>
+      </spirit:slave>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awaddr</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awprot</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wdata</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WSTRB</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wstrb</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_bresp</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_bvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_bready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_araddr</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_arprot</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_arvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_arready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rdata</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rresp</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>WIZ_DATA_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S00_AXI.WIZ_DATA_WIDTH" spirit:choiceRef="choice_list_6fc15197">32</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>WIZ_NUM_REG</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S00_AXI.WIZ_NUM_REG" spirit:minimum="4" spirit:maximum="512" spirit:rangeType="long">8</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>SUPPORTS_NARROW_BURST</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S00_AXI.SUPPORTS_NARROW_BURST" spirit:choiceRef="choice_pairs_ce1226b1">0</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>DATA_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.DATA_WIDTH">32</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>PROTOCOL</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.PROTOCOL">AXI4LITE</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ID_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.ID_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ADDR_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.ADDR_WIDTH">5</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>AWUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.AWUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ARUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.ARUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>WUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.WUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>RUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.RUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>BUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.BUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>READ_WRITE_MODE</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.READ_WRITE_MODE">READ_WRITE</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_BURST</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.HAS_BURST">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_LOCK</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.HAS_LOCK">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_PROT</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.HAS_PROT">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_CACHE</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.HAS_CACHE">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_QOS</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.HAS_QOS">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_REGION</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.HAS_REGION">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_WSTRB</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.HAS_WSTRB">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_BRESP</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.HAS_BRESP">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_RRESP</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.HAS_RRESP">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>NUM_READ_OUTSTANDING</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.NUM_READ_OUTSTANDING">2</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>NUM_WRITE_OUTSTANDING</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.NUM_WRITE_OUTSTANDING">2</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>MAX_BURST_LENGTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.MAX_BURST_LENGTH">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>PHASE</spirit:name>
+          <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.PHASE">0.0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>CLK_DOMAIN</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.CLK_DOMAIN">/clk_wiz_1_clk_out1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>NUM_READ_THREADS</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.NUM_READ_THREADS">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>NUM_WRITE_THREADS</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.NUM_WRITE_THREADS">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>RUSER_BITS_PER_BYTE</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.RUSER_BITS_PER_BYTE">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>WUSER_BITS_PER_BYTE</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI.WUSER_BITS_PER_BYTE">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>INSERT_VIP</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.S00_AXI.INSERT_VIP">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>simulation.rtl</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>S00_AXI_RST</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_aresetn</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>POLARITY</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_RST.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>INSERT_VIP</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.S00_AXI_RST.INSERT_VIP">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>simulation.rtl</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>S00_AXI_CLK</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_aclk</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.ASSOCIATED_BUSIF">S00_AXI</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.ASSOCIATED_RESET">s00_axi_aresetn</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>PHASE</spirit:name>
+          <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.PHASE">0.0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>CLK_DOMAIN</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.CLK_DOMAIN">/clk_wiz_1_clk_out1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>INSERT_VIP</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.INSERT_VIP">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>simulation.rtl</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+  </spirit:busInterfaces>
+  <spirit:memoryMaps>
+    <spirit:memoryMap>
+      <spirit:name>S00_AXI</spirit:name>
+      <spirit:addressBlock>
+        <spirit:name>S00_AXI_reg</spirit:name>
+        <spirit:baseAddress spirit:format="long" spirit:resolve="user">0</spirit:baseAddress>
+        <spirit:range spirit:format="long">4096</spirit:range>
+        <spirit:width spirit:format="long">32</spirit:width>
+        <spirit:usage>register</spirit:usage>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>OFFSET_BASE_PARAM</spirit:name>
+            <spirit:value spirit:id="ADDRBLOCKPARAM_VALUE.S00_AXI.S00_AXI_REG.OFFSET_BASE_PARAM">C_S00_AXI_BASEADDR</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>OFFSET_HIGH_PARAM</spirit:name>
+            <spirit:value spirit:id="ADDRBLOCKPARAM_VALUE.S00_AXI.S00_AXI_REG.OFFSET_HIGH_PARAM">C_S00_AXI_HIGHADDR</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:addressBlock>
+    </spirit:memoryMap>
+  </spirit:memoryMaps>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_verilogsynthesis</spirit:name>
+        <spirit:displayName>Verilog Synthesis</spirit:displayName>
+        <spirit:envIdentifier>verilogSource:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:language>verilog</spirit:language>
+        <spirit:modelName>myBLDC_Controller_v1_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_verilogsynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Fri Oct 18 02:12:42 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:888eddbb</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_synthesisconstraints</spirit:name>
+        <spirit:displayName>Synthesis Constraints</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis.constraints</spirit:envIdentifier>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:888eddbb</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_verilogsynthesiswrapper</spirit:name>
+        <spirit:displayName>Verilog Synthesis Wrapper</spirit:displayName>
+        <spirit:envIdentifier>verilogSource:vivado.xilinx.com:synthesis.wrapper</spirit:envIdentifier>
+        <spirit:language>verilog</spirit:language>
+        <spirit:modelName>design_2_myBLDC_Controller_0_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_verilogsynthesiswrapper_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Fri Oct 18 02:12:42 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:888eddbb</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_verilogbehavioralsimulation</spirit:name>
+        <spirit:displayName>Verilog Simulation</spirit:displayName>
+        <spirit:envIdentifier>verilogSource:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:language>verilog</spirit:language>
+        <spirit:modelName>myBLDC_Controller_v1_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_verilogbehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Fri Oct 18 02:12:42 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:b20a34c4</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_verilogsimulationwrapper</spirit:name>
+        <spirit:displayName>Verilog Simulation Wrapper</spirit:displayName>
+        <spirit:envIdentifier>verilogSource:vivado.xilinx.com:simulation.wrapper</spirit:envIdentifier>
+        <spirit:language>verilog</spirit:language>
+        <spirit:modelName>design_2_myBLDC_Controller_0_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_verilogsimulationwrapper_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Fri Oct 18 02:12:42 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:b20a34c4</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_externalfiles</spirit:name>
+        <spirit:displayName>External Files</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:external.files</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_externalfiles_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Fri Oct 18 02:13:49 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:888eddbb</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>i_vaux6p</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_vaux6n</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_sw_enable_control</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_sw_rot_ccw</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_sw_display_gain</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_sw_bypass</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_get_RPM</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_btn_u</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_btn_d</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_btn_r</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_btn_l</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>i_hall_state</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_U_pos</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_U_neg</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_V_pos</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_V_neg</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_W_pos</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_W_neg</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_U_pwm</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_V_pwm</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_W_pwm</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_led_enable_control</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_hall_one_hot_state</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">5</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_fnd</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>o_fnd_sel</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_aclk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_aresetn</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awaddr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_ADDR_WIDTH&apos;)) - 1)">4</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awprot</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wstrb</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH&apos;)) / 8) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_bresp</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_bvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_bready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_araddr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_ADDR_WIDTH&apos;)) - 1)">4</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_arprot</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_arvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_arready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rresp</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+    <spirit:modelParameters>
+      <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
+        <spirit:name>C_S00_AXI_DATA_WIDTH</spirit:name>
+        <spirit:displayName>C S00 AXI DATA WIDTH</spirit:displayName>
+        <spirit:description>Width of S_AXI data bus</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH" spirit:order="3" spirit:rangeType="long">32</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S00_AXI_ADDR_WIDTH</spirit:name>
+        <spirit:displayName>C S00 AXI ADDR WIDTH</spirit:displayName>
+        <spirit:description>Width of S_AXI address bus</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S00_AXI_ADDR_WIDTH" spirit:order="4" spirit:rangeType="long">5</spirit:value>
+      </spirit:modelParameter>
+    </spirit:modelParameters>
+  </spirit:model>
+  <spirit:choices>
+    <spirit:choice>
+      <spirit:name>choice_list_6fc15197</spirit:name>
+      <spirit:enumeration>32</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_9d8b0d81</spirit:name>
+      <spirit:enumeration>ACTIVE_HIGH</spirit:enumeration>
+      <spirit:enumeration>ACTIVE_LOW</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_pairs_ce1226b1</spirit:name>
+      <spirit:enumeration spirit:text="true">1</spirit:enumeration>
+      <spirit:enumeration spirit:text="false">0</spirit:enumeration>
+    </spirit:choice>
+  </spirit:choices>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_verilogsynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>src/xadc_wiz_0/xadc_wiz_0.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/BLDC_Controller.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/Button2Gain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/Hall_Sequencer.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/PI_Controller.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/PWM.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/SamplingTimer.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/bin2dec.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/decoder7seg.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/edge_detector_n.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/fndController.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/hdl/myBLDC_Controller_v1_0_S00_AXI.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/potentiometer.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/ring_counter_fnd.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/hdl/myBLDC_Controller_v1_0.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_verilogsynthesiswrapper_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>synth/design_2_myBLDC_Controller_0_0.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_verilogbehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>src/xadc_wiz_0/xadc_wiz_0.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/BLDC_Controller.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/Button2Gain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/Hall_Sequencer.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/PI_Controller.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/PWM.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/SamplingTimer.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/bin2dec.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/decoder7seg.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/edge_detector_n.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/fndController.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/hdl/myBLDC_Controller_v1_0_S00_AXI.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/potentiometer.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/src/ring_counter_fnd.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/9caa/hdl/myBLDC_Controller_v1_0.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_verilogsimulationwrapper_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>sim/design_2_myBLDC_Controller_0_0.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_externalfiles_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>design_2_myBLDC_Controller_0_0.dcp</spirit:name>
+        <spirit:userFileType>dcp</spirit:userFileType>
+        <spirit:userFileType>USED_IN_implementation</spirit:userFileType>
+        <spirit:userFileType>USED_IN_synthesis</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_2_myBLDC_Controller_0_0_stub.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_2_myBLDC_Controller_0_0_stub.vhdl</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_2_myBLDC_Controller_0_0_sim_netlist.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
+        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_2_myBLDC_Controller_0_0_sim_netlist.vhdl</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
+        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>My new AXI IP</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_DATA_WIDTH</spirit:name>
+      <spirit:displayName>C S00 AXI DATA WIDTH</spirit:displayName>
+      <spirit:description>Width of S_AXI data bus</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_DATA_WIDTH" spirit:choiceRef="choice_list_6fc15197" spirit:order="3">32</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_DATA_WIDTH">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_ADDR_WIDTH</spirit:name>
+      <spirit:displayName>C S00 AXI ADDR WIDTH</spirit:displayName>
+      <spirit:description>Width of S_AXI address bus</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_ADDR_WIDTH" spirit:order="4" spirit:rangeType="long">5</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_ADDR_WIDTH">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_BASEADDR</spirit:name>
+      <spirit:displayName>C S00 AXI BASEADDR</spirit:displayName>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_BASEADDR" spirit:order="5" spirit:bitStringLength="32">0xFFFFFFFF</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_BASEADDR">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_HIGHADDR</spirit:name>
+      <spirit:displayName>C S00 AXI HIGHADDR</spirit:displayName>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_HIGHADDR" spirit:order="6" spirit:bitStringLength="32">0x00000000</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_HIGHADDR">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">design_2_myBLDC_Controller_0_0</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:displayName>myBLDC_Controller_v1.0</xilinx:displayName>
+      <xilinx:coreRevision>28</xilinx:coreRevision>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@733baba0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a97d9de_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@49c6759d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4475d938_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45daa8e3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ea5d895_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d842aac_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3742fdbd_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c0a74ce_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c43db9a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3bbe7121_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cc56438_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@661cbf13_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37b0a46e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@61b2316b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23ae084_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77a3a10b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73ca521f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@508cfa57_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5722d6f5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@522d5ae_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5350c7cd_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@668dce04_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@282c4cd5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3273553d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@518d5f5e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c8c6949_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@312f7a7a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12b1b0ef_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e8a4fab_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a2408e7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24a9f35c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e42e7bf_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44dfeb0a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1eff2056_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e21c07e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e33f1b6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2522d122_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@288119d5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b4809b3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f50e753_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56f42356_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a61c925_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b605a19_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12045248_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44b36cb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41684118_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12df44d3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@61e3da31_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@790c7ef_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b99f28a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16f2f67c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@589af74e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@735c4061_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78f7a615_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32e962c3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73f6b908_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@177ade33_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7da9a18c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f48021d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b22bbdb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@796d4e36_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@dae429c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ad03392_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ce58460_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74f5c395_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38af12af_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a8e123f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@111da10f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d88bf9a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53911b9c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2604fbd5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5568e4bd_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7815b287_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7bbabb0a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57275167_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47f0d798_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2272ffcb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@655f8e6c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@27bbd434_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@737844ca_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50626adf_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@21c96a0b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b90c744_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@330f41d4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6fede2ef_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c5f00b7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78b009b6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e3d958a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59e536fd_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2cf9e349_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d732a0f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@284f4a71_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f402c6e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c203cb6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f60f8d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@63a38ead_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5827ee92_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f68eb79_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@717fd169_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20c9fac1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@717c8341_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b791db_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57a0c49_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1eeaf1bb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ed67c76_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@332610a7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b9a224_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f3a2b92_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7325d96a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@719746b4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75123cf_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6abec2cd_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2077d91_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1889aeca_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11baec1c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f3bd095_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ccfe094_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a85eaf6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a05cec4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1391aa_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74b4a1f3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@63cae3d3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@22c7ee1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30aa1065_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@62200fc9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7870099b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76ccc6c9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@282e2c7d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@782d8caa_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16d15dd9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7591cf9f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@43ec7a44_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@632b6e76_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@62d934f9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56707121_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f167590_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d37efcb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5205ef5b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a303515_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@29d044f6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f6adbb8_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@52af384e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2dc5b692_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ae803da_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13e2ccc3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@608d044b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47128cf2_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e209ab8_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b868fc8_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1aee8c2f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5adc1eed_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33374b41_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@35b7ecf4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79ad6c08_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ca14cd1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@81ebef5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e2e47ba_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6bf5b9e2_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@716e148d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@182cff15_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58ec0153_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ebed416_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ef9f821_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ae5b503_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58ccfd7b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26e89bd7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b52c2aa_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d99f053_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@225bc45b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51f4a43e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5092ff36_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e4bf38f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b3348a3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ac619ca_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@209eaa06_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5fd19a12_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@563f01d5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67574780_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c80f541_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@307f81d4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73fd3450_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4234b4ac_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56169b66_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d4f24a4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@678c9107_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e1fd247_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@162ba65d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7326cb0d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3fc56698_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e46ee67_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ec9f060_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32ae8e21_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a21cc93_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e9ac6e0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b7dfc85_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@22890a52_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ae46e83_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75832cec_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@196df0b1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@233a0855_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55b4bfc_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@614d4cc1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@39f81c80_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6769158c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e79e597_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4faeb8ff_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4265dd1d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@49a88693_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51f6dcaa_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@783800fc_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@396c0b3a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24c9fb21_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1579319_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5512c9ff_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1424c623_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66700ba1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4656a2ab_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f78e980_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79269168_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6799ae6c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@261a9ff9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c293964_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1eb36594_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12fa6062_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26964cc7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48bd085a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3932a025_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74704ec0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74ac4590_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@351744f4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3add5aaf_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@528e1bb5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c214d69_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c696341_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a013495_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@27353933_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41970aa1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@356c7adb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5812b886_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13f83fde_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@312e52b9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@690319f8_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ee3af4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b175058_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@106222e2_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1af99c74_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2093dbc6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46f79908_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4fd84bbb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6cfdad8_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74c08a93_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bfb58c4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@488bb8d9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2da0fa35_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@646a5392_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18363e67_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e680351_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f684fd2_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66e17d8a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ab8b401_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f7243e1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a6ef75c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e3a396e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@35d01838_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76f92e8_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54363cf3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c5bb22_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d6fc772_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@70e0071d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6662ac66_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b15904b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1973ebd9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4de649c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2555df19_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d1f380_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26060c6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a3743e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1700294b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59f83078_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60d7a0d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58d36732_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b3cd71c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ebece7f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@503746c1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1678464c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c045a6a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a1eb96f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51a1794b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7292080c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a1e433_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@fab0946_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@497a6623_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7484122_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2aa6f61_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@771047da_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46dd5aa4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74eb8fa3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d58ca1d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1798c24a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ebf8d42_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79a0b6cd_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@cc5e835_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a69b9f3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e98b980_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67a0c213_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d6b653d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@682cbb62_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5339fd31_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@710aaee4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79adc81c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@62611ce9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@10fcdc75_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2abc330a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1acb6dc7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a89bc8d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64a29e7e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16bcb93a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13a442ca_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a2ed7d6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a8eb3a2_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d3db420_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59611b98_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44986dc5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@644cabe4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@df42c4c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ce1cf9f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@330077c0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@751a11c6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4948519f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3eb8494f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ba47c1b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3820eb22_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9383ad0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56f350dc_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e41c6b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ca4bc23_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ab593df_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4de298a6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d8442b6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73f0789d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@709fa9fb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2624bb8f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f1bf061_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c50f388_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7bb595ae_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1040c5e3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60128797_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d7cc8ca_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32e88c7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@35f8af15_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6fa251cb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55b68d88_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3110f9e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7dec5768_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5fd1666e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@68f97c1a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@214be485_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a6fa478_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d4ac927_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7558e9e1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d96f96d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b6a3f83_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@17e3de8f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5854fe47_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@279c4f85_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41658b95_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42f44a51_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b02476_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@8fd550c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d96b567_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a1fd5bd_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54d9e563_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1edb8c7b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f28e5b6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@459b8dfd_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e5925c6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ec5ca7d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a846e38_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@519edc7f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d29f653_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@644f1737_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@689b4c77_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32b926d9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b95e0c7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@560a789a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7576f3a0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d986bf5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bc0972f_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b3ec232_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@446a7efa_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ab298b3_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7bc264d8_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ca34b06_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23f2c3f2_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ff4f4c1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7108491e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b2e211c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@70d2bc6e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24f70f80_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@793f3f19_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bd05fa1_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ae1456e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66930c4e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@886dd0e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d5984d4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38242e08_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a7f0391_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@10943bbc_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46d6095_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e71a899_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c69195c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6091aa8c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6806319c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58ab08d9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73491de4_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79720890_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a8eb931_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7add329_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12c639bf_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26c1e874_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@269ff689_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6eb2de4a_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b61a41e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a3dc11d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@adb6e25_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@423544b0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@234644d9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@14c6c13c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e81785_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ca60b74_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@199efbe0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cf0721c_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a0ba27e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@586e7721_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@fb8a25b_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a925932_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@202b8dc_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@468dae84_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4babb66_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54d0b967_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@774a79c5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@100491eb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c4016cb_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d5ebdb7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e9e052d_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4cbab517_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19f96e0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c272ee6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@34e0dc17_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5afa76d9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12698cc6_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@68294c84_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@648795d9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47d178c5_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@588aaf97_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d9279f9_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1103d773_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5dee4813_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19f53e8e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71ce5123_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74ccd9df_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71450c7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e53cf23_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e2645a0_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67048cac_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1bc1604e_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41eeedd7_ARCHIVE_LOCATION">c:/work/Harman_4_LJP/Basys3/ip_repo/myBLDC_Controller_1.0</xilinx:tag>
+      </xilinx:tags>
+      <xilinx:configElementInfos>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.ADDR_WIDTH" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.ARUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.AWUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.BUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.CLK_DOMAIN" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.DATA_WIDTH" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.FREQ_HZ" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.HAS_BRESP" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.HAS_BURST" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.HAS_CACHE" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.HAS_LOCK" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.HAS_PROT" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.HAS_QOS" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.HAS_REGION" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.HAS_RRESP" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.HAS_WSTRB" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.ID_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.MAX_BURST_LENGTH" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.NUM_READ_OUTSTANDING" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.NUM_READ_THREADS" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.NUM_WRITE_OUTSTANDING" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.NUM_WRITE_THREADS" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.PHASE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.PROTOCOL" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.READ_WRITE_MODE" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.RUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.RUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.SUPPORTS_NARROW_BURST" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.WIZ_DATA_WIDTH" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.WIZ_NUM_REG" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.WUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.WUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI_CLK.ASSOCIATED_BUSIF" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI_CLK.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI_CLK.CLK_DOMAIN" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI_CLK.FREQ_HZ" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI_CLK.PHASE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI_RST.POLARITY" xilinx:valuePermission="bd"/>
+      </xilinx:configElementInfos>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2019.2</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="206b0a70"/>
+      <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="a450aa58"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="ea59146d"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="2e811c89"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="07074d66"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

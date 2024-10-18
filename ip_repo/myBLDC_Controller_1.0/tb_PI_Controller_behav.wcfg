@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_PI_Controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_PI_Controller" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="21001300001fs"></ZoomEndTime>
+      <Cursor1Time time="17499565000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="250"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_PI_Controller/DUT/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/i_enable_control" type="logic">
+      <obj_property name="ElementShortName">i_enable_control</obj_property>
+      <obj_property name="ObjectShortName">i_enable_control</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/o_control_input" type="array">
+      <obj_property name="ElementShortName">o_control_input[11:0]</obj_property>
+      <obj_property name="ObjectShortName">o_control_input[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider96">
+      <obj_property name="label">REF_ERR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/i_reference" type="array">
+      <obj_property name="ElementShortName">i_reference[11:0]</obj_property>
+      <obj_property name="ObjectShortName">i_reference[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_reference" type="array">
+      <obj_property name="ElementShortName">r_reference[13:0]</obj_property>
+      <obj_property name="ObjectShortName">r_reference[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/i_plant_output" type="array">
+      <obj_property name="ElementShortName">i_plant_output[12:0]</obj_property>
+      <obj_property name="ObjectShortName">i_plant_output[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_plant_output" type="array">
+      <obj_property name="ElementShortName">r_plant_output[13:0]</obj_property>
+      <obj_property name="ObjectShortName">r_plant_output[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_error" type="array">
+      <obj_property name="ElementShortName">r_error[14:0]</obj_property>
+      <obj_property name="ObjectShortName">r_error[14:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider96">
+      <obj_property name="label">P_TERM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/i_p_gain" type="array">
+      <obj_property name="ElementShortName">i_p_gain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_p_gain[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_p_gain" type="array">
+      <obj_property name="ElementShortName">r_p_gain[8:0]</obj_property>
+      <obj_property name="ObjectShortName">r_p_gain[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/o_p_term" type="array">
+      <obj_property name="ElementShortName">o_p_term[23:0]</obj_property>
+      <obj_property name="ObjectShortName">o_p_term[23:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/o_p_term" type="array">
+      <obj_property name="ElementShortName">o_p_term[23:0]</obj_property>
+      <obj_property name="ObjectShortName">o_p_term[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_p_term" type="array">
+      <obj_property name="ElementShortName">r_p_term[23:0]</obj_property>
+      <obj_property name="ObjectShortName">r_p_term[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider96">
+      <obj_property name="label">I_TERM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/i_i_gain" type="array">
+      <obj_property name="ElementShortName">i_i_gain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_i_gain[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_i_gain" type="array">
+      <obj_property name="ElementShortName">r_i_gain[8:0]</obj_property>
+      <obj_property name="ObjectShortName">r_i_gain[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_i_gain_z" type="array">
+      <obj_property name="ElementShortName">r_i_gain_z[8:0]</obj_property>
+      <obj_property name="ObjectShortName">r_i_gain_z[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/o_i_term" type="array">
+      <obj_property name="ElementShortName">o_i_term[23:0]</obj_property>
+      <obj_property name="ObjectShortName">o_i_term[23:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/o_i_term" type="array">
+      <obj_property name="ElementShortName">o_i_term[23:0]</obj_property>
+      <obj_property name="ObjectShortName">o_i_term[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_i_term_extended" type="array">
+      <obj_property name="ElementShortName">r_i_term_extended[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r_i_term_extended[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_integral_component" type="array">
+      <obj_property name="ElementShortName">r_integral_component[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r_integral_component[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider96">
+      <obj_property name="label">C_INPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/r_control_input" type="array">
+      <obj_property name="ElementShortName">r_control_input[24:0]</obj_property>
+      <obj_property name="ObjectShortName">r_control_input[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PI_Controller/DUT/w_calculate" type="logic">
+      <obj_property name="ElementShortName">w_calculate</obj_property>
+      <obj_property name="ObjectShortName">w_calculate</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

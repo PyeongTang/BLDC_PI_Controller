@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_BLDC_Controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_BLDC_Controller" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3262925000fs"></ZoomEndTime>
+      <Cursor1Time time="81975000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="250"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="78" />
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_enable_control" type="logic">
+      <obj_property name="ElementShortName">i_enable_control</obj_property>
+      <obj_property name="ObjectShortName">i_enable_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_rot_ccw" type="logic">
+      <obj_property name="ElementShortName">i_rot_ccw</obj_property>
+      <obj_property name="ObjectShortName">i_rot_ccw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_bypass" type="logic">
+      <obj_property name="ElementShortName">i_bypass</obj_property>
+      <obj_property name="ObjectShortName">i_bypass</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_reference" type="array">
+      <obj_property name="ElementShortName">i_reference[11:0]</obj_property>
+      <obj_property name="ObjectShortName">i_reference[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_p_gain" type="array">
+      <obj_property name="ElementShortName">i_p_gain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_p_gain[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_i_gain" type="array">
+      <obj_property name="ElementShortName">i_i_gain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_i_gain[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_RPM" type="array">
+      <obj_property name="ElementShortName">i_RPM[12:0]</obj_property>
+      <obj_property name="ObjectShortName">i_RPM[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_valid" type="logic">
+      <obj_property name="ElementShortName">i_valid</obj_property>
+      <obj_property name="ObjectShortName">i_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_time_count" type="array">
+      <obj_property name="ElementShortName">o_time_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_time_count[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_get_RPM" type="logic">
+      <obj_property name="ElementShortName">o_get_RPM</obj_property>
+      <obj_property name="ObjectShortName">o_get_RPM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_p_term" type="array">
+      <obj_property name="ElementShortName">o_p_term[23:0]</obj_property>
+      <obj_property name="ObjectShortName">o_p_term[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_i_term" type="array">
+      <obj_property name="ElementShortName">o_i_term[23:0]</obj_property>
+      <obj_property name="ObjectShortName">o_i_term[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_error" type="array">
+      <obj_property name="ElementShortName">o_error[14:0]</obj_property>
+      <obj_property name="ObjectShortName">o_error[14:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_control_input" type="array">
+      <obj_property name="ElementShortName">o_control_input[11:0]</obj_property>
+      <obj_property name="ObjectShortName">o_control_input[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/i_hall_state" type="array">
+      <obj_property name="ElementShortName">i_hall_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">i_hall_state[2:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_U_pos" type="logic">
+      <obj_property name="ElementShortName">o_U_pos</obj_property>
+      <obj_property name="ObjectShortName">o_U_pos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_U_neg" type="logic">
+      <obj_property name="ElementShortName">o_U_neg</obj_property>
+      <obj_property name="ObjectShortName">o_U_neg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_V_pos" type="logic">
+      <obj_property name="ElementShortName">o_V_pos</obj_property>
+      <obj_property name="ObjectShortName">o_V_pos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_V_neg" type="logic">
+      <obj_property name="ElementShortName">o_V_neg</obj_property>
+      <obj_property name="ObjectShortName">o_V_neg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_W_pos" type="logic">
+      <obj_property name="ElementShortName">o_W_pos</obj_property>
+      <obj_property name="ObjectShortName">o_W_pos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_W_neg" type="logic">
+      <obj_property name="ElementShortName">o_W_neg</obj_property>
+      <obj_property name="ObjectShortName">o_W_neg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_U_pwm" type="logic">
+      <obj_property name="ElementShortName">o_U_pwm</obj_property>
+      <obj_property name="ObjectShortName">o_U_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_V_pwm" type="logic">
+      <obj_property name="ElementShortName">o_V_pwm</obj_property>
+      <obj_property name="ObjectShortName">o_V_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_W_pwm" type="logic">
+      <obj_property name="ElementShortName">o_W_pwm</obj_property>
+      <obj_property name="ObjectShortName">o_W_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/o_hall_one_hot_state" type="array">
+      <obj_property name="ElementShortName">o_hall_one_hot_state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">o_hall_one_hot_state[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/w_RPM" type="array">
+      <obj_property name="ElementShortName">w_RPM[12:0]</obj_property>
+      <obj_property name="ObjectShortName">w_RPM[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/w_control_input" type="array">
+      <obj_property name="ElementShortName">w_control_input[11:0]</obj_property>
+      <obj_property name="ObjectShortName">w_control_input[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/w_selected_duty" type="array">
+      <obj_property name="ElementShortName">w_selected_duty[11:0]</obj_property>
+      <obj_property name="ObjectShortName">w_selected_duty[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider58">
+      <obj_property name="label">U</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/i_reset" type="logic">
+      <obj_property name="ElementShortName">i_reset</obj_property>
+      <obj_property name="ObjectShortName">i_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/i_duty" type="array">
+      <obj_property name="ElementShortName">i_duty[11:0]</obj_property>
+      <obj_property name="ObjectShortName">i_duty[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/o_pwm" type="logic">
+      <obj_property name="ElementShortName">o_pwm</obj_property>
+      <obj_property name="ObjectShortName">o_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/r_count_duty" type="array">
+      <obj_property name="ElementShortName">r_count_duty[11:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count_duty[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/r_count_freq" type="array">
+      <obj_property name="ElementShortName">r_count_freq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count_freq[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/w_count_freq_negedge" type="logic">
+      <obj_property name="ElementShortName">w_count_freq_negedge</obj_property>
+      <obj_property name="ObjectShortName">w_count_freq_negedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/r_clk" type="logic">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/r_pwm" type="logic">
+      <obj_property name="ElementShortName">r_pwm</obj_property>
+      <obj_property name="ObjectShortName">r_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/PWM_FREQ" type="array">
+      <obj_property name="ElementShortName">PWM_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/PWM_RESOLUTION" type="array">
+      <obj_property name="ElementShortName">PWM_RESOLUTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_RESOLUTION[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/BIT_RESOLUTION" type="array">
+      <obj_property name="ElementShortName">BIT_RESOLUTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BIT_RESOLUTION[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/SYS_CLK_FREQ" type="array">
+      <obj_property name="ElementShortName">SYS_CLK_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SYS_CLK_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/CLK_DIV_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_DIV_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_U_PHASE/CLK_DIV_TH" type="array">
+      <obj_property name="ElementShortName">CLK_DIV_TH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV_TH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider58">
+      <obj_property name="label">V</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/i_reset" type="logic">
+      <obj_property name="ElementShortName">i_reset</obj_property>
+      <obj_property name="ObjectShortName">i_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/i_duty" type="array">
+      <obj_property name="ElementShortName">i_duty[11:0]</obj_property>
+      <obj_property name="ObjectShortName">i_duty[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/o_pwm" type="logic">
+      <obj_property name="ElementShortName">o_pwm</obj_property>
+      <obj_property name="ObjectShortName">o_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/r_count_duty" type="array">
+      <obj_property name="ElementShortName">r_count_duty[11:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count_duty[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/r_count_freq" type="array">
+      <obj_property name="ElementShortName">r_count_freq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count_freq[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/w_count_freq_negedge" type="logic">
+      <obj_property name="ElementShortName">w_count_freq_negedge</obj_property>
+      <obj_property name="ObjectShortName">w_count_freq_negedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/r_clk" type="logic">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/r_pwm" type="logic">
+      <obj_property name="ElementShortName">r_pwm</obj_property>
+      <obj_property name="ObjectShortName">r_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/PWM_FREQ" type="array">
+      <obj_property name="ElementShortName">PWM_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_FREQ[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/PWM_RESOLUTION" type="array">
+      <obj_property name="ElementShortName">PWM_RESOLUTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_RESOLUTION[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/BIT_RESOLUTION" type="array">
+      <obj_property name="ElementShortName">BIT_RESOLUTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BIT_RESOLUTION[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/SYS_CLK_FREQ" type="array">
+      <obj_property name="ElementShortName">SYS_CLK_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SYS_CLK_FREQ[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/CLK_DIV_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_DIV_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV_FREQ[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_V_PHASE/CLK_DIV_TH" type="array">
+      <obj_property name="ElementShortName">CLK_DIV_TH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV_TH[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider92">
+      <obj_property name="label">W</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/i_reset" type="logic">
+      <obj_property name="ElementShortName">i_reset</obj_property>
+      <obj_property name="ObjectShortName">i_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/i_duty" type="array">
+      <obj_property name="ElementShortName">i_duty[11:0]</obj_property>
+      <obj_property name="ObjectShortName">i_duty[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/o_pwm" type="logic">
+      <obj_property name="ElementShortName">o_pwm</obj_property>
+      <obj_property name="ObjectShortName">o_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/r_count_duty" type="array">
+      <obj_property name="ElementShortName">r_count_duty[11:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count_duty[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/r_count_freq" type="array">
+      <obj_property name="ElementShortName">r_count_freq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count_freq[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/w_count_freq_negedge" type="logic">
+      <obj_property name="ElementShortName">w_count_freq_negedge</obj_property>
+      <obj_property name="ObjectShortName">w_count_freq_negedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/r_clk" type="logic">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/r_pwm" type="logic">
+      <obj_property name="ElementShortName">r_pwm</obj_property>
+      <obj_property name="ObjectShortName">r_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/PWM_FREQ" type="array">
+      <obj_property name="ElementShortName">PWM_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/PWM_RESOLUTION" type="array">
+      <obj_property name="ElementShortName">PWM_RESOLUTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_RESOLUTION[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/BIT_RESOLUTION" type="array">
+      <obj_property name="ElementShortName">BIT_RESOLUTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BIT_RESOLUTION[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/SYS_CLK_FREQ" type="array">
+      <obj_property name="ElementShortName">SYS_CLK_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SYS_CLK_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/CLK_DIV_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_DIV_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BLDC_Controller/DUT/PWM_W_PHASE/CLK_DIV_TH" type="array">
+      <obj_property name="ElementShortName">CLK_DIV_TH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV_TH[31:0]</obj_property>
+   </wvobject>
+</wave_config>

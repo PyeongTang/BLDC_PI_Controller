@@ -1,0 +1,92 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.490268",
+   "Default View_TopLeft":"192,57",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 7 -x 2130 -y 190 -defaultsOSRD
+preplace port i_vaux6p -pg 1 -lvl 0 -x -20 -y 560 -defaultsOSRD
+preplace port i_vaux6n -pg 1 -lvl 0 -x -20 -y 590 -defaultsOSRD
+preplace port i_sw_enable_control -pg 1 -lvl 0 -x -20 -y 620 -defaultsOSRD
+preplace port i_sw_rot_ccw -pg 1 -lvl 0 -x -20 -y 650 -defaultsOSRD
+preplace port i_btn_u -pg 1 -lvl 0 -x -20 -y 680 -defaultsOSRD
+preplace port i_btn_d -pg 1 -lvl 0 -x -20 -y 710 -defaultsOSRD
+preplace port i_btn_l -pg 1 -lvl 0 -x -20 -y 770 -defaultsOSRD
+preplace port i_btn_r -pg 1 -lvl 0 -x -20 -y 740 -defaultsOSRD
+preplace port o_U_pos -pg 1 -lvl 7 -x 2130 -y 530 -defaultsOSRD
+preplace port o_U_neg -pg 1 -lvl 7 -x 2130 -y 560 -defaultsOSRD
+preplace port o_V_pos -pg 1 -lvl 7 -x 2130 -y 590 -defaultsOSRD
+preplace port o_W_pos -pg 1 -lvl 7 -x 2130 -y 650 -defaultsOSRD
+preplace port o_V_neg -pg 1 -lvl 7 -x 2130 -y 620 -defaultsOSRD
+preplace port o_W_neg -pg 1 -lvl 7 -x 2130 -y 680 -defaultsOSRD
+preplace port o_U_pwm -pg 1 -lvl 7 -x 2130 -y 710 -defaultsOSRD
+preplace port o_V_pwm -pg 1 -lvl 7 -x 2130 -y 740 -defaultsOSRD
+preplace port o_W_pwm -pg 1 -lvl 7 -x 2130 -y 770 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x -20 -y 360 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x -20 -y 440 -defaultsOSRD
+preplace portBus i_hall_state -pg 1 -lvl 0 -x -20 -y 800 -defaultsOSRD
+preplace portBus o_hall_one_hot_state -pg 1 -lvl 7 -x 2130 -y 800 -defaultsOSRD
+preplace portBus o_fnd -pg 1 -lvl 7 -x 2130 -y 830 -defaultsOSRD
+preplace portBus o_fnd_sel -pg 1 -lvl 7 -x 2130 -y 860 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -x 1120 -y 470 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 5 -x 1520 -y 480 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -x 1520 -y 190 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -x 740 -y 200 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -x 1880 -y 200 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 400 -y 380 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 3 -x 740 -y 470 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 400 -y 540 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -x 110 -y 430 -defaultsOSRD
+preplace inst myBLDC_Controller_0 -pg 1 -lvl 6 -x 1880 -y 690 -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 1 5 200 270 570 560 880 560 1380 560 1680
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 4 580 290 NJ 290 1360 380 1690
+preplace netloc xlconcat_0_dout 1 2 1 580J 500n
+preplace netloc mdm_1_Debug_SYS_Rst 1 1 3 220 280 NJ 280 870
+preplace netloc proc_sys_reset_0_mb_reset 1 2 2 NJ 340 870
+preplace netloc SYS_Rst_1 1 2 3 NJ 360 NJ 360 1370
+preplace netloc i_vaux6p_1 1 0 6 NJ 560 210J 610 NJ 610 NJ 610 NJ 610 1660J
+preplace netloc i_vaux6n_1 1 0 6 NJ 590 200J 600 NJ 600 NJ 600 NJ 600 1670J
+preplace netloc i_sw_enable_control_1 1 0 6 0J 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ
+preplace netloc i_sw_rot_ccw_1 1 0 6 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ
+preplace netloc i_btn_u_1 1 0 6 NJ 680 NJ 680 NJ 680 NJ 680 NJ 680 1660J
+preplace netloc i_btn_d_1 1 0 6 NJ 710 NJ 710 NJ 710 NJ 710 NJ 710 NJ
+preplace netloc i_btn_r_1 1 0 6 0J 730 NJ 730 NJ 730 NJ 730 NJ 730 NJ
+preplace netloc i_btn_l_1 1 0 6 0J 750 NJ 750 NJ 750 NJ 750 NJ 750 NJ
+preplace netloc i_hall_state_1 1 0 6 10J 770 NJ 770 NJ 770 NJ 770 NJ 770 NJ
+preplace netloc myBLDC_Controller_0_o_get_RPM 1 1 6 220 620 NJ 620 NJ 620 NJ 620 1700J 510 2050
+preplace netloc myBLDC_Controller_0_o_U_pos 1 6 1 2060J 530n
+preplace netloc myBLDC_Controller_0_o_U_neg 1 6 1 2070J 560n
+preplace netloc myBLDC_Controller_0_o_V_pos 1 6 1 2080J 590n
+preplace netloc myBLDC_Controller_0_o_V_neg 1 6 1 2090J 620n
+preplace netloc myBLDC_Controller_0_o_W_pos 1 6 1 2100J 650n
+preplace netloc myBLDC_Controller_0_o_W_neg 1 6 1 2070J 680n
+preplace netloc myBLDC_Controller_0_o_U_pwm 1 6 1 NJ 710
+preplace netloc myBLDC_Controller_0_o_V_pwm 1 6 1 2080J 730n
+preplace netloc myBLDC_Controller_0_o_W_pwm 1 6 1 2100J 750n
+preplace netloc myBLDC_Controller_0_o_fnd 1 6 1 2060J 790n
+preplace netloc myBLDC_Controller_0_o_hall_one_hot_state 1 6 1 2080J 770n
+preplace netloc myBLDC_Controller_0_o_fnd_sel 1 6 1 2050J 810n
+preplace netloc reset_1 1 0 2 0 360 NJ
+preplace netloc sys_clock_1 1 0 1 NJ 440
+preplace netloc clk_wiz_locked 1 1 1 220 420n
+preplace netloc microblaze_0_dlmb_1 1 4 1 N 450
+preplace netloc microblaze_0_ilmb_1 1 4 1 N 470
+preplace netloc microblaze_0_debug 1 3 1 890 180n
+preplace netloc microblaze_0_mdm_axi 1 2 4 570 10 NJ 10 NJ 10 1690
+preplace netloc microblaze_0_axi_dp 1 4 1 1350 70n
+preplace netloc axi_uartlite_0_UART 1 6 1 NJ 190
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 5 1 N 180
+preplace netloc axi_intc_0_interrupt 1 3 1 880 440n
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 2 4 590 370 NJ 370 NJ 370 1660
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 1670 200n
+levelinfo -pg 1 -20 110 400 740 1120 1520 1880 2130
+pagesize -pg 1 -db -bbox -sgen -200 0 2340 880
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"14",
+   "da_clkrst_cnt":"9",
+   "da_mb_cnt":"1"
+}
